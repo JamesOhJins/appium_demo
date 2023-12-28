@@ -1,0 +1,12 @@
+{
+    "note_20_ultra": {
+      "platformName": "Android",
+      "automationName": "uiautomator2",
+      "deviceName": "Jay",
+      "appPackage": "com.sec.android.app.popupcalculator",
+      "appActivity": "com.sec.android.app.popupcalculator.Calculator",
+      "language": "ko",
+      "locale": "KR"
+    }
+  }
+  
