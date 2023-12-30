@@ -1,7 +1,7 @@
 import pytest
 from appium import webdriver
 from appium.options.android import UiAutomator2Options
-from ..pages.calculator_page import CalculatorPage
+from ..pages.youtube_page import YoutubePage
 import time
 import json
 
@@ -28,11 +28,11 @@ def driver_init(request):
     appium_driver.quit()
 
 @pytest.mark.usefixtures("driver_init")
-class TestCalculatorApp:
+class TestYoutubeApp:
     def setup_method(self, method):
-        self.calculator = CalculatorPage(self.driver)
+        self.calculator = YoutubePage(self.driver)
 
-    def test_multiplication(self):
+    def test_search(self):
         self.calculator.press_digit(9)
 
         self.calculator.press_multiply()

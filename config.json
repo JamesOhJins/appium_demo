@@ -1,4 +1,5 @@
-{
+[
+  {
     "note_20_ultra": {
       "platformName": "Android",
       "automationName": "uiautomator2",
@@ -8,5 +9,17 @@
       "language": "ko",
       "locale": "KR"
     }
-  }
+  },
   
+  {
+      "note_20_ultra_youtube": {
+        "platformName": "Android",
+        "automationName": "uiautomator2",
+        "deviceName": "Jay",
+        "appPackage": "com.google.android.youtube",
+        "appActivity": "com.google.android.youtube.HomeActivity",
+        "language": "ko",
+        "locale": "KR"
+      }
+  }
+]
